@@ -7,8 +7,9 @@ import { Observable } from 'rxjs';
 })
 export class EmployeeService {
 
-  private baseUrl = 'http://localhost:8080/api/v1/employees';
-
+  private baseUrl = 'http://localhost:8081/api/v2/employees';
+  /**  'http://localhost:8081/api/v2/employees'; */
+  
   constructor(private http: HttpClient) { }
 
   getEmployeesList(): Observable<any> {
