@@ -1,0 +1,7 @@
+com\example\demo\entity\Vehicle.class
+com\example\demo\model\EmployeeDto.class
+com\example\demo\service\CustomerService.class
+com\example\demo\entity\Customer.class
+com\example\demo\entity\Employee.class
+com\example\demo\service\EmployeeService.class
+com\example\demo\config\PersistenceContext.class
